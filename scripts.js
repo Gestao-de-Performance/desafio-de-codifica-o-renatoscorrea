@@ -22,6 +22,8 @@ function soma() {
 
 function media() {
     
+    var num = [2, 4, 7, 23, 10, 11, 31, 39, 40, 47];
+    
     soma = 0;
     for (i = 0; i < num.length; i++) {
         
@@ -31,6 +33,12 @@ function media() {
     console.log("A média é " + soma/num.length);
     
 }
+
+
+
+
+//Exercício 3
+//Pegue os mesmos 10 números do exercício anterior e mostre no console apenas os números primos.
 
 function numPrimo() {
     
@@ -45,9 +53,6 @@ function numPrimo() {
 }
 
 
-
-//Exercício 3
-//Pegue os mesmos 10 números do exercício anterior e mostre no console apenas os números primos.
 
 
 function ehNumber(num) {
